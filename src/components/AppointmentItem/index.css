@@ -1,0 +1,32 @@
+.appointItem-container {
+  list-style-type: none;
+  border: 1px solid #b5b7c4;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 8px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.title-star-container {
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title-heading {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 16px;
+}
+.star-img {
+  width: 24px;
+  margin-left: 20px;
+}
+.date-text {
+  color: #b5b7c4;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 0px;
+}
