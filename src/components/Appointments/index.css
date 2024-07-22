@@ -6,7 +6,7 @@
   align-items: center;
   padding: 50px;
 }
-.main-heading {
+.div-main-heading {
   color: #171f46;
   font-family: 'Roboto';
   font-weight: bold;
@@ -88,4 +88,45 @@
   justify-content: flex-start;
   align-items: center;
   padding-left: 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .main-container {
+    max-width: 90%;
+    background-color: #ffffff;
+    padding: 50px;
+    overflow-y: scroll;
+    border-radius: 16px;
+  }
+  .appointment-img {
+    display: none;
+  }
+  .title-input {
+    min-height: 20px;
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #b5b7c4;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  .div-main-heading {
+    color: #171f46;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 28px;
+  }
+  .label {
+    color: #b5b7c4;
+    font-size: 12px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 90%;
+  }
 }
